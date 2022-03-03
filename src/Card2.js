@@ -12,14 +12,14 @@ const bull = (
   </Box>
 );
 
-export default function Card1() {
+export default function Card2() {
   return ( 
     <Card sx={{ minWidth: 275 }}>
         <CardMedia
          component="video"
          autoPlay 
          controls
-         src="./video1.mp4"
+         src="./video2.mp4"
         />
     </Card>
   );

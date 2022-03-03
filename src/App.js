@@ -3,13 +3,12 @@ import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 // import Card from '@mui/material/Card';
-import BasicCard from './BasicCard'
-import Card1 from './Card1'
+import BasicCard from './BasicCard';
+import Card1 from './Card1';
+import Card2 from './Card2';
+// import ResponsivePlayer from './ReactPlayer';
 
 // import { Card, Row, Col, Container } from "react-bootstrap";
-
-
-
 
 const useStyles = makeStyles((theme: Theme) =>
 createStyles({
@@ -36,6 +35,7 @@ const classes = useStyles();
       <Grid item xs={12} sm={4}>
       <BasicCard />
       <Card1 />
+
       <BasicCard />
       </Grid>
       <Grid item xs={12} sm={4}>
